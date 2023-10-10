@@ -1,4 +1,4 @@
-import datetime
-now = datetime.datetime.now()
-print ("Current date and time : ")
-print (now.strftime("%Y-%m-%d %H:%M:%S"))
+num =123.456789
+print (f'{num:.4f}')
+num =1000000.1234
+print (f'{num:.2f}')
