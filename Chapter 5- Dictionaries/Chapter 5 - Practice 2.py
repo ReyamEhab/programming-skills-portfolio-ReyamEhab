@@ -1,5 +1,4 @@
-# Define a dictionary
-my_dictionary = {"name": "Reyam", "age": 20, "occupation": "Tecnocreater"}
-print("Keys in the dictionary:")
-for key in my_dictionary:
+# Sample dictionary
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+for key in my_dict:
     print(key)
