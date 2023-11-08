@@ -1,11 +1,19 @@
-my_information = {
-    "name": "Reyam Ehab",
-    "age": 20,
-    "occupation": "Tecnocreater",
-    "hobbies": ["reading", "drawing", "designing"],
+# Creating a dictionary to store information about myself
+myself = {
+    "name": "Reyam",
+    "age": 30,
+    "interests": ["reading", "drawing"],
     "email": "reyam_kama26@yahoo.com",
 }
-# Printing the dictionary
-print("Information about myself:")
-for key, value in my_information.items():
-    print(f"{key}: {value}")
+# Printing the information stored in the dictionary
+print("Name:", myself["name"])
+print("Age:", myself["age"])
+print("Interests:", ', '.join(myself["interests"]))
+print("Email:", myself["email"])
+ 
+
+
+
+
+
+
